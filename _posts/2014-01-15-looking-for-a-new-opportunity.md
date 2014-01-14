@@ -24,4 +24,4 @@ Priority goes to full time permanent positions but if any of the available solut
 As I am involved a lot with the PHP Community organising events and helping startups and companies to find great developers I'd like to keep up with these activities. Being able to spend some time during the week would be great.
 
 ## You can help me
-Do you know of any interesting companies that are looking for a role that you think I'd be suited for? Do you want to hire me? Drop me an email to daniel.londero@gmail.com. Thanks.
+Do you know of any interesting companies that are looking for a role that you think I'd be suited for? Do you want to hire me? Drop me an email to [daniel.londero@gmail.com](mailto:daniel.londero@gmail.com). Thanks.
