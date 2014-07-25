@@ -10,7 +10,7 @@ As a developer when I'm not coding nor spending time on StackOverflow good chanc
 
 Working on different projects and having to follow and work on many different issues I heavily use the organization dashboard as the starting point of every single day. From there I have the control of all the things I'm involved: new issues, updated issues, issues waiting for love...it's the big picture of what I need to get done.
 
-The initial list could be huge, fortunately you can filter issues and PRs per project so you get a smaller set of information to scan, you can also filter issues by the type of your involvement. This means you can choose to view all issues _created by you_ and all issues _assigned to you_. Unfortunately, I don't know why, GitHub folks decided to not allow you to filter issues _mentioning you_ in the organization dashboard while you can do it when browsing a single repository.
+The initial list could be huge, fortunately you can filter issues and PRs per project so you get a smaller set of information to scan, you can also filter issues by the type of your involvement. This means you can choose to view all issues **created by you** and all issues **assigned to you**. Unfortunately, I don't know why, GitHub folks decided to not allow you to filter issues **mentioning you** in the organization dashboard while you can do it when browsing a single repository.
 
 And to me this is really a missing feature as issues mentioning you are as important as all the other types as you are supposed to give advice on something or could be interested in some changes going on somewhere in the project where your teammates are working. If someone mentions you in an issue there's a reason and you want to see those issues as well, it's not just another Yo clone.
 
@@ -22,6 +22,6 @@ Then I wanted to refine it a bit: colorize the output for better reading and org
 
 As of now [gh-dashboard is also on Packagist](https://packagist.org/packages/dlondero/gh-dashboard) and you can install it via Composer as a global dependency and you don't need anymore to set it up manually copying and editing configuration files as it's going to ask you some defaults to use on the first usage.
 
-It works for me™, hope it works for you too!
+It works for me™, hope it works for you too! On a side note is fun to have small side projects to work on solving real problems and not trying always to be the next big thing (dreaming billions of $).
 
 [1] I first took a look at some of the best CLI tools out there already using GitHub's APIs to do all sorts of tricks. Some are very huge and well done but all the ones I looked into have one problem: they work at repository level (no big picture then) or at user account level (this means reading issues from ALL the repositories you are in with no separation between organizations). And this is a problem to me.
