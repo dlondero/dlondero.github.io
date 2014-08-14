@@ -28,13 +28,13 @@ I can hardly remember now what I was asked to solve/code during all these interv
 
 I also had a test checking the correctness of the code. It was working as expected. Still interviewer was not amused: 
 
-I: "naming is bad"
-D: "well this is code I'll trash at the end of the call, I won't spend time making it nice, I want it to work"
-I: "so you don't write the best code at the first time?"
-D: "...well, no, sorry"
-I: "ah"
-D: "do you know test - code - refactor?"
-I: "but naming is bad"
-D: "you know what? thanks for your time but I'm not looking for that kind of company. cya!"
+I: "naming is bad"  
+D: "well this is code I'll trash at the end of the call, I won't spend time making it nice, I want it to work"  
+I: "so you don't write the best code at the first time?"  
+D: "...well, no, sorry"  
+I: "ah"  
+D: "do you know test - code - refactor?"  
+I: "but naming is bad"  
+D: "you know what? thanks for your time but I'm not looking for that kind of company. cya!"  
 
 Hiring developers: you're doing it wrong!
