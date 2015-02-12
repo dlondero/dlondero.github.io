@@ -2,7 +2,7 @@
 layout: post
 title: Random Tips for Remote Working
 categories:
-- remote working
+- remote-working
 - telecommuting
 ---
 
