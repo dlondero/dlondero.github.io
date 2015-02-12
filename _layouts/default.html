@@ -16,6 +16,13 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.theme.name }}" href="{{site.url}}/atom.xml" />
 
   <link rel="stylesheet" href="/assets/css/all.css">
+
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:site_name" content="Daniel Londero Blog"/>
+  <meta property="og:title" content="{{ site.url }}{{ page.url | replace:'index.html','' }}" />
+  <meta property="og:description" content="{{ page.excerpt }}" />
+  <meta property="og:image" content="{{ site.url }}/logo.png" />
+  <meta property="article:author" content="https://www.facebook.com/daniel.londero" />
 <!--[if IE 7]>
   <link rel="stylesheet" href="/assets/css/font-awesome-ie7.min.css">
 <![endif]-->
