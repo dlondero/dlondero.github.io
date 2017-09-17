@@ -1,0 +1,25 @@
+# Theme customization - please change from the defaults!
+
+# Color for top bar, links, etc
+highlight_color: '#00c3b2'
+
+# Profile links on the left sidebar, leave blank to ignore
+social:
+  github: dlondero
+  stackoverflow: 860120
+  twitter: dlondero
+  linkedin: dlondero
+
+# "Hi, I'm _______"
+name: Daniel Londero
+email: daniel.londero@gmail.com
+tagline: "weak opinions, strongly held"
+
+# Google Analytics key, leave blank to ignore
+google_analytics_key: UA-45117712-1
+
+# Toggle "Postings are my own" disclaimer in footer
+show_disclaimer: true
+
+# Toggle link/icon to view atom feed (/atom.xml) in sidebar
+show_atom_feed: true

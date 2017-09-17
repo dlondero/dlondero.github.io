@@ -1,28 +1,5 @@
 # General Jekyll Config
-highlighter: rouge
+highlighter: pygments
 url: http://dlondero.it
 lsi: false
-exclude: [LICENSE, CNAME, README.md, .gitignore, Vagrantfile]
-markdown: kramdown
-
-# Theme customization - please change from the defaults!
-theme:
-  # Color for top bar, links, etc
-  highlight_color: '#00c3b2'
-
-  # Profile links on the left sidebar, leave blank to ignore
-  social:
-    github: dlondero
-    twitter: dlondero
-    linkedin: dlondero
-
-  # "Hi, I'm _______"
-  name: Daniel Londero
-  email: daniel.londero@gmail.com
-  tagline: "weak opinions, strongly held"
-
-  # Google Analytics key, leave blank to ignore
-  google_analytics_key: UA-45117712-1
-
-  # Toggle "Postings are my own" disclaimer in footer
-  show_disclaimer: true
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
