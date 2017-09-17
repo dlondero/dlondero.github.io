@@ -1,5 +1,5 @@
 # General Jekyll Config
-rouge: true
+highlighter: pygments
 url: http://dlondero.it
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Vagrantfile]
