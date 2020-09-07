@@ -32,12 +32,12 @@ performed: imagine running thousands of such queries on a collection with hundre
 follow.
 
 It might happen that a document is not structured properly to support index creation on the right data fields. Don't be 
-afraid of change its structure if that allows to improve query performances. What about old documents you say? Start 
+afraid of changing its structure if that allows to improve query performances. What about old documents? You say. Start 
 creating new ones in a backward compatible way: still write data in the old way plus the new way. Then process old 
-documents to add support for future index running a background process going throug all documents (even if it takes weeks!).
+documents to add support for future index running a background process going through all documents (even if it takes weeks!).
 In the end you'll be able to create the new index and take full advantage of it!
 
-Do not forget about sorting! If you happen to have [compund indexes](https://docs.mongodb.com/manual/core/index-compound)
+Do not forget about sorting! If you happen to have [compound indexes](https://docs.mongodb.com/manual/core/index-compound)
 remember that sort order can matter in determining whether an index can support a sort operation or not. You could think
 an index is used on a certain query while instead that is not the case, so make sure no blocking sorts are needed for 
 your queries and learn [how to use indexes to sort query results](https://docs.mongodb.com/manual/tutorial/sort-results-with-indexes/).
@@ -55,7 +55,7 @@ operators at the beginning of the pipeline.
 #### Make good use of memory
 When you have a good amount of memory and small collections (so small indexes) it's all roses. Things get complex when
 collections and indexes grow so much that they can't fit into memory (caches: WiredTiget internal and filesystem cache) 
-and evitcting pages from cache does not help: high disk I/O, CPU usage skyrocketing, unusable system.
+and evicting pages from cache does not help: high disk I/O, CPU usage skyrocketing, unusable system.
 
 The default [WiredTiger internal cache size](https://docs.mongodb.com/manual/faq/diagnostics/#memory-diagnostics-for-the-wiredtiger-storage-engine) is the larger of either:
 - 50% of (RAM - 1 GB)
